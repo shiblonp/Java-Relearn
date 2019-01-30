@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c774eb84-74b4-450d-a20a-889bc20859a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/pluralsight/calcengine/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/pluralsight/calcengine/Main.class" afterDir="false" />
+=======
+>>>>>>> classes
       <change beforePath="$PROJECT_DIR$/src/com/pluralsight/calcengine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pluralsight/calcengine/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,8 +21,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="307">
               <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+=======
+            <state relative-caret-position="177">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/MathEquation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+>>>>>>> classes
             </state>
           </provider>
         </entry>
@@ -45,8 +62,13 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="39" />
     <option name="y" value="96" />
+=======
+    <option name="x" value="-8" />
+    <option name="y" value="52" />
+>>>>>>> classes
     <option name="width" value="1280" />
     <option name="height" value="646" />
   </component>
@@ -83,7 +105,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548811652971" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548811399612" />
+>>>>>>> classes
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -128,7 +154,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="39" y="96" width="1280" height="646" extended-state="0" />
+=======
+    <frame x="-8" y="52" width="1280" height="646" extended-state="0" />
+>>>>>>> classes
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
@@ -141,8 +171,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32851985" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39891696" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32851985" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39891696" />
+>>>>>>> classes
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -164,12 +199,21 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/src/com/pluralsight/calcengine/Main.java</url>
           <line>30</line>
           <properties class="com.pluralsight.calcengine.Main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
+=======
+          <url>file://$PROJECT_DIR$/src/com/pluralsight/calcengine/MathEquation.java</url>
+          <line>10</line>
+          <properties class="com.pluralsight.calcengine.MathEquation" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+>>>>>>> classes
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -184,8 +228,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="307">
           <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+=======
+        <state relative-caret-position="177">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+>>>>>>> classes
         </state>
       </provider>
     </entry>
