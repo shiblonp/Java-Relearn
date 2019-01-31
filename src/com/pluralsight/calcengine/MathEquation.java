@@ -3,10 +3,30 @@ package com.pluralsight.calcengine;
 //Class creation exercise from the pluralsight website
 
 public class MathEquation {
-    public double leftVal;
-    public double rightVal;
-    public char opCode;
-    public double result;
+    private double leftVal;
+    private double rightVal;
+    private char opCode;
+    private double result;
+
+    public double getRightVal(){
+        return rightVal;
+    }
+    public void setRightVal(double rightVal){
+        this.rightVal=rightVal;
+    }
+    public double getLeftVal(){
+        return leftVal;
+    }
+    public void setLeftVal(double leftVal){
+        this.leftVal=leftVal;
+    }
+    public char getOpCode(){
+        return opCode;
+    }
+    public void setOpCode(char opCode){
+        this.opCode=opCode;
+    }
+    public double getResults(){return result;}
 
     public void execute()
     {
