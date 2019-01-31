@@ -5,7 +5,7 @@ package com.pluralsight.calcengine;
 public class MathEquation {
     private double leftVal;
     private double rightVal;
-    private char opCode;
+    private char opCode = 'a';
     private double result;
 
     public double getRightVal(){
@@ -27,6 +27,20 @@ public class MathEquation {
         this.opCode=opCode;
     }
     public double getResults(){return result;}
+
+    //default constructor
+    public MathEquation(){}
+
+    public MathEquation(char opCode){
+        this.opCode= opCode;
+    }
+    public MathEquation(char opCode, double leftVal, double rightVal){
+        //to create the constructor chain
+        this(opCode);
+        this.leftVal = leftVal;
+        this.rightVal= rightVal;
+
+    }
 
     public void execute()
     {
