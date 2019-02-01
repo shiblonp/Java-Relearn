@@ -20,18 +20,31 @@ public class Main {
 //            System.out.println(equation.getResults());
 //        }
 
-        //Using inheritance where each math function is inheriting from a base class
-        CalculateBase [] calculators = {
-                new Adder(25.0d,92.0d),
-                new Divider(100.0d, 50.0d),
-                new Multiplier(11.0d,3.0d),
-                new Subtractor(225.0d, 3.0d)
+
+        //checking the String properties with overriden toString property included
+        String [] statements = {
+                "Divide 100.0 50.0",
+                "Add 25.0 92.0",
+                "Subtract 225.0 17.0",
+                "Multiply 11.0 3.0"
         };
-        for (CalculateBase calculator : calculators){
-            calculator.Calculate();
-            System.out.println(calculator.getResults());
+        CalculateHelper helper = new CalculateHelper();
+        for (String statement:statements){
+            helper.process(statement);
+            System.out.println(helper);
         }
-    }
+//        //Using inheritance where each math function is inheriting from a base class
+//        CalculateBase [] calculators = {
+//                new Adder(25.0d,92.0d),
+//                new Divider(100.0d, 50.0d),
+//                new Multiplier(11.0d,3.0d),
+//                new Subtractor(225.0d, 3.0d)
+//        };
+//        for (CalculateBase calculator : calculators){
+//            calculator.Calculate();
+//            System.out.println(calculator.getResults());
+//        }
+//    }
     //no longer need this method, the creation of the constructor will take care of this
 //    public static MathEquation create(double leftVal, double rightVal, char opCode)
 //    {
@@ -42,4 +55,4 @@ public class Main {
 //
 //        return equation;
 //    }
-}
+}}
