@@ -10,13 +10,25 @@ public class CalculateHelper {
     double rightValue;
     double result;
 
-    public void process (String statement){
+    //need to have the throws keyword because I added reference to the custom exception
+    public void process (String statement) throws InvalidStatementException{
         String [] parts = statement.split(" ");
+        //added reference to the custom exception in case a full statement wasn't added
+        if (parts.length !=3)
+            throw new InvalidStatementException("Incorrect number of fields:", statement);
         String commandString = parts[0];
-        leftValue= Double.parseDouble(parts[1]);
-        rightValue= Double.parseDouble(parts[2]);
-
+        //this is my try catch to make sure that the left and right values do not contain letters
+        try {
+            leftValue = Double.parseDouble(parts[1]);
+            rightValue = Double.parseDouble(parts[2]);
+        }catch(NumberFormatException e)
+        {
+            throw new InvalidStatementException("Non-numeric date:", statement, e);
+        }
         setCommandFromString(commandString);
+        //this is my checker to make sure that my command actually matches all options from my enum
+        if(command == null)
+            throw new InvalidStatementException("Invalid command:", statement);
 
         CalculateBase calculator = null;
 

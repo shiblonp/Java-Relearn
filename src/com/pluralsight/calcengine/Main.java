@@ -22,16 +22,29 @@ public class Main {
 
 
         //checking the String properties with overriden toString property included
+        //including commands that will not process correctly
         String [] statements = {
+                "add 1.0",
+                "add xx 25.0",
+                "addx 0.0 0.0",
                 "Divide 100.0 50.0",
                 "Add 25.0 92.0",
                 "Subtract 225.0 17.0",
                 "Multiply 11.0 3.0"
         };
         CalculateHelper helper = new CalculateHelper();
+        //now I have to handle the throws that I declared in the process method
         for (String statement:statements){
+            try{
             helper.process(statement);
-            System.out.println(helper);
+            System.out.println(helper);}
+            catch(InvalidStatementException e){
+                System.out.println(e.getMessage());
+                //Using the getCause method from the exceptions base class to be able to print the default message
+                if (e.getCause()!= null)
+                    //can use this when the exception is not from custom exception class
+                    System.out.println("  Original exception: " + e.getCause().getMessage());
+            }
         }
 //        //Using inheritance where each math function is inheriting from a base class
 //        CalculateBase [] calculators = {
