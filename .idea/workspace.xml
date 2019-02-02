@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="untitled104:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f6d2308e-aa9a-4c50-92e8-4622263f5bb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/pluralsight/calcengine/CalculateHelper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/pluralsight/calcengine/CalculateHelper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/pluralsight/calcengine/CalculateHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/pluralsight/calcengine/CalculateHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/pluralsight/calcengine/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/pluralsight/calcengine/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pluralsight/calcengine/CalculateHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pluralsight/calcengine/CalculateHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pluralsight/calcengine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pluralsight/calcengine/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/pluralsight/calcengine/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/pluralsight/calcengine/MathCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/pluralsight/calcengine/MathCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pluralsight/calcengine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pluralsight/myapp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pluralsight/calcengine/MathCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pluralsight/calcengine/MathCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +20,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/pluralsight/myapp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="675">
+              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,16 +48,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/MathCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/CalculateHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-740">
+            <state relative-caret-position="450">
               <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
             </state>
           </provider>
@@ -167,16 +174,17 @@
         <option value="$PROJECT_DIR$/src/com/pluralsight/calcengine/CalculateBase.java" />
         <option value="$PROJECT_DIR$/src/MathCommand.java" />
         <option value="$PROJECT_DIR$/src/CalculateHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/pluralsight/calcengine/MathCommand.java" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/calcengine/InvalidStatementException.java" />
-        <option value="$PROJECT_DIR$/src/com/pluralsight/calcengine/Main.java" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/calcengine/CalculateHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/pluralsight/calcengine/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/pluralsight/myapp/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/pluralsight/calcengine/MathCommand.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="23" />
-    <option name="y" value="65" />
+    <option name="x" value="270" />
+    <option name="y" value="471" />
     <option name="width" value="1280" />
     <option name="height" value="646" />
   </component>
@@ -206,7 +214,21 @@
               <item name="CalcEngine" type="b2602c69:ProjectViewProjectNode" />
               <item name="CalcEngine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pluralsight" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalcEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalcEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pluralsight" type="462c0819:PsiDirectoryNode" />
               <item name="calcengine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalcEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalcEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pluralsight" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,8 +237,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549057665318" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549060824428" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -232,7 +257,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.calcengine.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.myapp.Main" />
       <module name="untitled104" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -260,7 +285,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="23" y="65" width="1280" height="646" extended-state="0" />
+    <frame x="270" y="471" width="1280" height="646" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
@@ -312,7 +337,7 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/pluralsight/calcengine/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/com/pluralsight/myapp/Main.java</url>
           <line>36</line>
           <properties />
           <option name="timeStamp" value="10" />
@@ -416,20 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/MathCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/InvalidStatementException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -443,10 +454,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/CalculateHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-740">
+        <state relative-caret-position="450">
           <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcengine/MathCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pluralsight/myapp/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>untitled104:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>untitled104</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

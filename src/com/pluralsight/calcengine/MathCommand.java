@@ -1,6 +1,7 @@
 package com.pluralsight.calcengine;
 
-public enum MathCommand {
+//changed this to a package private enum
+enum MathCommand {
     Add,
     Subtract,
     Multiply,

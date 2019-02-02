@@ -1,4 +1,9 @@
-package com.pluralsight.calcengine;
+
+// switched package into its own
+package com.pluralsight.myapp;
+
+import com.pluralsight.calcengine.CalculateHelper;
+import com.pluralsight.calcengine.InvalidStatementException;
 
 public class Main {
 
