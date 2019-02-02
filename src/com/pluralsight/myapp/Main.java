@@ -2,8 +2,8 @@
 // switched package into its own
 package com.pluralsight.myapp;
 
-import com.pluralsight.calcengine.CalculateHelper;
-import com.pluralsight.calcengine.InvalidStatementException;
+import com.pluralsight.calcengine.*;
+
 
 public class Main {
 
@@ -25,32 +25,47 @@ public class Main {
 //            System.out.println(equation.getResults());
 //        }
 
-
-        //checking the String properties with overriden toString property included
-        //including commands that will not process correctly
         String [] statements = {
-                "add 1.0",
-                "add xx 25.0",
-                "addx 0.0 0.0",
-                "Divide 100.0 50.0",
-                "Add 25.0 92.0",
-                "Subtract 225.0 17.0",
-                "Multiply 11.0 3.0"
+                "add 25.0 92.0",
+                "power 2.0 2.0"
         };
-        CalculateHelper helper = new CalculateHelper();
-        //now I have to handle the throws that I declared in the process method
-        for (String statement:statements){
-            try{
-            helper.process(statement);
-            System.out.println(helper);}
-            catch(InvalidStatementException e){
-                System.out.println(e.getMessage());
-                //Using the getCause method from the exceptions base class to be able to print the default message
-                if (e.getCause()!= null)
-                    //can use this when the exception is not from custom exception class
-                    System.out.println("  Original exception: " + e.getCause().getMessage());
-            }
+        DynamicHelper helper = new DynamicHelper(new MathProcessing[]
+        {
+            new Adder(),
+                new PowerOf()
+        });
+        for (String statement: statements){
+            String output= helper.process(statement);
+            System.out.println(output);
         }
+
+
+        //Commented out after adding interface and implementations
+            //checking the String properties with overridden toString property included
+        //including commands that will not process correctly
+//        String [] statements = {
+//                "add 1.0",
+//                "add xx 25.0",
+//                "addx 0.0 0.0",
+//                "Divide 100.0 50.0",
+//                "Add 25.0 92.0",
+//                "Subtract 225.0 17.0",
+//                "Multiply 11.0 3.0"
+//        };
+//        CalculateHelper helper = new CalculateHelper();
+//        //now I have to handle the throws that I declared in the process method
+//        for (String statement:statements){
+//            try{
+//            helper.process(statement);
+//            System.out.println(helper);}
+//            catch(InvalidStatementException e){
+//                System.out.println(e.getMessage());
+//                //Using the getCause method from the exceptions base class to be able to print the default message
+//                if (e.getCause()!= null)
+//                    //can use this when the exception is not from custom exception class
+//                    System.out.println("  Original exception: " + e.getCause().getMessage());
+//            }
+//        }
 //        //Using inheritance where each math function is inheriting from a base class
 //        CalculateBase [] calculators = {
 //                new Adder(25.0d,92.0d),
